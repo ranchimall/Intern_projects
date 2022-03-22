@@ -23,7 +23,7 @@ This will Start the container and a terminal will pop up.
 Now run the following code to start the CPU miner..
 
 ```bash
-  minerd -o stratum+tcp://rm-pool.duckdns.org:3333 -a scrypt -u <user>.<worker> -p <workerpassword>
+  ./minerd -o stratum+tcp://rm-pool.duckdns.org:3333 -a scrypt -u <user>.<worker> -p <workerpassword>
 ```
 
 
